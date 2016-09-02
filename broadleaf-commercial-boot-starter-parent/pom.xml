@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
     <name>Broadleaf Basic Commercial Dependencies</name>
     <url>http://www.broadleafcommerce.com</url>
+
     <dependencies>
         <dependency>
             <groupId>com.broadleafcommerce</groupId>
