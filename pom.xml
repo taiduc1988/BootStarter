@@ -8,7 +8,7 @@
     </parent>
     <groupId>com.broadleafcommerce</groupId>
     <artifactId>broadleaf-basic-boot-starter-parent</artifactId>
-    <version>5.1.0-SNAPSHOT</version>
+    <version>5.0.0-BOOT-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>BroadleafCommerce Spring Boot Starter Parent</name>
     <description>Contains configuration for a Broadleaf Commerce Spring Boot starter project</description>
@@ -17,11 +17,11 @@
         <hibernate.version>4.1.11.Final</hibernate.version>
         <solr.version>5.3.1</solr.version>
         <hsqldb.version>2.3.2</hsqldb.version>
-        <solr.starter.version>5.1.0-SNAPSHOT</solr.starter.version>
-        <admin.starter.version>5.1.0-SNAPSHOT</admin.starter.version>
-        <reference.starter.version>5.1.0-SNAPSHOT</reference.starter.version>
-        <database.starter.version>5.1.0-SNAPSHOT</database.starter.version>
-        <broadleaf.bom.version>5.1.0-SNAPSHOT</broadleaf.bom.version>
+        <solr.starter.version>5.0.0-BOOT-SNAPSHOT</solr.starter.version>
+        <admin.starter.version>5.0.0-BOOT-SNAPSHOT</admin.starter.version>
+        <reference.starter.version>5.0.0-BOOT-SNAPSHOT</reference.starter.version>
+        <database.starter.version>5.0.0-BOOT-SNAPSHOT</database.starter.version>
+        <broadleaf.bom.version>5.0.0-BOOT-SNAPSHOT</broadleaf.bom.version>
     </properties>
 
     <build>
