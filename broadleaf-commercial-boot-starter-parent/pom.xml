@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.broadleafcommerce</groupId>
         <artifactId>broadleaf-basic-boot-starter-parent</artifactId>
-        <version>5.0.0-BOOT-SNAPSHOT</version>
+        <version>5.2.0-SNAPSHOT</version>
     </parent>
     <artifactId>broadleaf-commercial-boot-starter-parent</artifactId>
     <packaging>pom</packaging>
