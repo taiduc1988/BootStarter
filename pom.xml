@@ -18,6 +18,10 @@
         <solr.version>5.3.1</solr.version>
         <hsqldb.version>2.3.2</hsqldb.version>
         <broadleaf.bom.version>6.0.0-SNAPSHOT</broadleaf.bom.version>
+        <solr.starter.version>6.0.0-SNAPSHOT</solr.starter.version>
+        <admin.starter.version>6.0.0-SNAPSHOT</admin.starter.version>
+        <reference.starter.version>6.0.0-SNAPSHOT</reference.starter.version>
+        <database.starter.version>6.0.0-SNAPSHOT</database.starter.version>
         <lombok.version>1.16.10</lombok.version>
     </properties>
 
@@ -101,6 +105,31 @@
                 <version>${broadleaf.bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.broadleafcommerce</groupId>
+                <artifactId>broadleafcommerce-boot-starter-admin</artifactId>
+                <version>${admin.starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.broadleafcommerce</groupId>
+                <artifactId>broadleafcommerce-boot-starter-solr</artifactId>
+                <version>${solr.starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.broadleafcommerce</groupId>
+                <artifactId>broadleaf-boot-starter-database</artifactId>
+                <version>${database.starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.broadleafcommerce</groupId>
+                <artifactId>reference-boot-starter-admin</artifactId>
+                <version>${reference.starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.broadleafcommerce</groupId>
+                <artifactId>reference-boot-starter-site</artifactId>
+                <version>${reference.starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
