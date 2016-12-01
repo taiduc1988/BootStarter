@@ -22,6 +22,7 @@
         <admin.starter.version>6.0.0-SNAPSHOT</admin.starter.version>
         <reference.starter.version>6.0.0-SNAPSHOT</reference.starter.version>
         <database.starter.version>6.0.0-SNAPSHOT</database.starter.version>
+        <hsql.database.starter.version>6.0.0-SNAPSHOT</hsql.database.starter.version>
         <lombok.version>1.16.10</lombok.version>
     </properties>
 
@@ -120,6 +121,11 @@
                 <groupId>com.broadleafcommerce</groupId>
                 <artifactId>broadleaf-boot-starter-database</artifactId>
                 <version>${database.starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.broadleafcommerce</groupId>
+                <artifactId>broadleaf-boot-starter-hsql-database</artifactId>
+                <version>${hsql.database.starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.broadleafcommerce</groupId>
