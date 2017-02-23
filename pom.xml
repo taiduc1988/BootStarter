@@ -15,7 +15,6 @@
 
     <properties>
         <hibernate.version>4.1.11.Final</hibernate.version>
-        <hibernate-validator.version>4.3.0.Final</hibernate-validator.version>
         <solr.version>5.3.1</solr.version>
         <hsqldb.version>2.3.2</hsqldb.version>
         <broadleaf.bom.version>5.2.0-SNAPSHOT</broadleaf.bom.version>
