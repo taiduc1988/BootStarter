@@ -20,6 +20,13 @@
         <broadleaf.bom.version>5.2.0-SNAPSHOT</broadleaf.bom.version>
     </properties>
 
+    <scm>
+        <connection>scm:git:git@github.com:BroadleafCommerce/BootStarter.git</connection>
+        <developerConnection>scm:git:git@github.com:BroadleafCommerce/BootStarter.git</developerConnection>
+        <url>https://github.com/BroadleafCommerce/BootStarter</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <repositories>
         <repository>
             <id>releases</id>
