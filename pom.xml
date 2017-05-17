@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.1.RELEASE</version>
+        <version>1.5.3.RELEASE</version>
         <relativePath></relativePath>
     </parent>
     <groupId>com.broadleafcommerce</groupId>
@@ -18,11 +18,6 @@
         <solr.version>5.3.1</solr.version>
         <hsqldb.version>2.3.2</hsqldb.version>
         <broadleaf.bom.version>5.2.0-SNAPSHOT</broadleaf.bom.version>
-        <solr.starter.version>5.2.0-SNAPSHOT</solr.starter.version>
-        <admin.starter.version>5.2.0-SNAPSHOT</admin.starter.version>
-        <reference.starter.version>5.2.0-SNAPSHOT</reference.starter.version>
-        <database.starter.version>5.2.0-SNAPSHOT</database.starter.version>
-        <hsql.database.starter.version>5.2.0-SNAPSHOT</hsql.database.starter.version>
     </properties>
 
     <repositories>
@@ -55,15 +50,7 @@
                 <plugin>
                     <groupId>org.zeroturnaround</groupId>
                     <artifactId>jrebel-maven-plugin</artifactId>
-                    <version>1.1.3</version>
-                    <dependencies>
-                        <dependency>
-                            <groupId>org.codehaus.plexus</groupId>
-                            <artifactId>plexus-utils</artifactId>
-                            <version>1.4.1</version>
-                            <scope>runtime</scope>
-                        </dependency>
-                    </dependencies>
+                    <version>1.1.5</version>
                 </plugin>
                 <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
                 <plugin>
@@ -129,31 +116,6 @@
                 <version>${broadleaf.bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.broadleafcommerce</groupId>
-                <artifactId>broadleaf-boot-starter-solr</artifactId>
-                <version>${solr.starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.broadleafcommerce</groupId>
-                <artifactId>broadleaf-boot-starter-database</artifactId>
-                <version>${database.starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.broadleafcommerce</groupId>
-                <artifactId>broadleaf-boot-starter-hsql-database</artifactId>
-                <version>${hsql.database.starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.mycompany</groupId>
-                <artifactId>reference-boot-starter-admin</artifactId>
-                <version>${reference.starter.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.mycompany</groupId>
-                <artifactId>reference-boot-starter-site</artifactId>
-                <version>${reference.starter.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
