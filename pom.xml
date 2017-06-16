@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.3.RELEASE</version>
+        <version>1.5.4.RELEASE</version>
         <relativePath></relativePath>
     </parent>
     <groupId>org.broadleafcommerce</groupId>
@@ -17,7 +17,7 @@
         <hibernate.version>4.1.11.Final</hibernate.version>
         <solr.version>5.3.1</solr.version>
         <hsqldb.version>2.4.0</hsqldb.version>
-        <broadleaf.bom.version>5.2.0-SNAPSHOT</broadleaf.bom.version>
+        <broadleaf.bom.version>5.2.0-RC2</broadleaf.bom.version>
     </properties>
 
     <scm>
