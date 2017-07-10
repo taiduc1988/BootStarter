@@ -125,7 +125,7 @@
         <dependencies>
             <dependency>
                 <groupId>com.broadleafcommerce</groupId>
-                <artifactId>broadleaf-enterprise-bom</artifactId>
+                <artifactId>broadleaf-bom</artifactId>
                 <version>${broadleaf.bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
