@@ -8,7 +8,7 @@
     </parent>
     <groupId>org.broadleafcommerce</groupId>
     <artifactId>broadleaf-boot-starter-parent</artifactId>
-    <version>5.2.1-GA</version>
+    <version>5.2.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>BroadleafCommerce Spring Boot Starter Parent</name>
     <description>Contains configuration for a Broadleaf Commerce Spring Boot starter project</description>
