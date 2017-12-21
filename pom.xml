@@ -8,7 +8,7 @@
     </parent>
     <groupId>org.broadleafcommerce</groupId>
     <artifactId>broadleaf-boot-starter-parent</artifactId>
-    <version>5.2.3-M8</version>
+    <version>5.2.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>BroadleafCommerce Spring Boot Starter Parent</name>
     <description>Contains configuration for a Broadleaf Commerce Spring Boot starter project</description>
@@ -25,7 +25,7 @@
         <connection>scm:git:git@github.com:BroadleafCommerce/BootStarter.git</connection>
         <developerConnection>scm:git:git@github.com:BroadleafCommerce/BootStarter.git</developerConnection>
         <url>https://github.com/BroadleafCommerce/BootStarter</url>
-        <tag>broadleaf-boot-starter-parent-5.2.3-M8</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <repositories>
