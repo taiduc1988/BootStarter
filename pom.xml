@@ -14,7 +14,7 @@
     <description>Contains configuration for a Broadleaf Commerce Spring Boot starter project</description>
 
     <properties>
-        <solr.version>5.3.1</solr.version>
+        <solr.version>7.3.1</solr.version>
         <hsqldb.version>2.4.0</hsqldb.version>
         <broadleaf.bom.version>6.0.0-SNAPSHOT</broadleaf.bom.version>
     </properties>
