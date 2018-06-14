@@ -16,7 +16,7 @@
     <properties>
         <solr.version>7.3.1</solr.version>
         <hsqldb.version>2.4.0</hsqldb.version>
-        <broadleaf.bom.version>6.0.0-M1</broadleaf.bom.version>
+        <broadleaf.bom.version>6.0.0-SNAPSHOT</broadleaf.bom.version>
     </properties>
 
     <scm>
