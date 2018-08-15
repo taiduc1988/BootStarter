@@ -25,7 +25,7 @@
         <connection>scm:git:git@github.com:BroadleafCommerce/BootStarter.git</connection>
         <developerConnection>scm:git:git@github.com:BroadleafCommerce/BootStarter.git</developerConnection>
         <url>https://github.com/BroadleafCommerce/BootStarter</url>
-        <tag>broadleaf-boot-starter-parent-5.2.5.2-SNAPSHOT</tag>
+        <tag>broadleaf-boot-starter-parent-5.2.6-SNAPSHOT</tag>
     </scm>
 
     <repositories>
