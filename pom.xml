@@ -18,14 +18,14 @@
         <solr.version>5.3.1</solr.version>
         <hsqldb.version>2.4.0</hsqldb.version>
         <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
-        <broadleaf.bom.version>5.2.6.2-SNAPSHOT</broadleaf.bom.version>
+        <broadleaf.bom.version>5.2.7-SNAPSHOT</broadleaf.bom.version>
     </properties>
 
     <scm>
         <connection>scm:git:git@github.com:BroadleafCommerce/BootStarter.git</connection>
         <developerConnection>scm:git:git@github.com:BroadleafCommerce/BootStarter.git</developerConnection>
         <url>https://github.com/BroadleafCommerce/BootStarter</url>
-        <tag>broadleaf-boot-starter-parent-5.2.6.2-SNAPSHOT</tag>
+        <tag>broadleaf-boot-starter-parent-5.2.7-SNAPSHOT</tag>
     </scm>
 
     <repositories>
