@@ -15,7 +15,6 @@
 
     <properties>
         <solr.version>7.3.1</solr.version>
-        <thymeleaf.spring.security.version>3.0.4.RELEASE</thymeleaf.spring.security.version>
         <broadleaf.bom.version>6.1.0-SNAPSHOT</broadleaf.bom.version>
         <hibernate.version>5.2.17.Final</hibernate.version>
     </properties>
@@ -129,11 +128,6 @@
                 <version>${broadleaf.bom.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.thymeleaf.extras</groupId>
-                <artifactId>thymeleaf-extras-springsecurity4</artifactId>
-                <version>${thymeleaf.spring.security.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
