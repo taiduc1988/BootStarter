@@ -15,7 +15,7 @@
 
     <properties>
         <solr.version>7.3.1</solr.version>
-        <broadleaf.bom.version>6.0.1-GA</broadleaf.bom.version>
+        <broadleaf.bom.version>6.0.2-SNAPSHOT</broadleaf.bom.version>
     </properties>
 
     <scm>
