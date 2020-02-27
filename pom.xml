@@ -16,6 +16,7 @@
     <properties>
         <solr.version>7.7.2</solr.version>
         <broadleaf.bom.version>6.1.0-SNAPSHOT</broadleaf.bom.version>
+        <thymeleaf.layout.version>2.3.0</thymeleaf.layout.version>
     </properties>
 
     <scm>
@@ -128,6 +129,11 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+	            <groupId>com.github.zhanhb</groupId>
+	            <artifactId>thymeleaf-layout-dialect</artifactId>
+	            <version>${thymeleaf.layout.version}</version>
+	        </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
