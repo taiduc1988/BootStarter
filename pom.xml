@@ -15,7 +15,7 @@
 
     <properties>
         <solr.version>7.7.2</solr.version>
-        <broadleaf.bom.version>6.1.3-GA</broadleaf.bom.version>
+        <broadleaf.bom.version>6.1.4-SNAPSHOT</broadleaf.bom.version>
         <thymeleaf.layout.version>2.3.0</thymeleaf.layout.version>
     </properties>
 
