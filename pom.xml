@@ -8,14 +8,14 @@
     </parent>
     <groupId>org.broadleafcommerce</groupId>
     <artifactId>broadleaf-boot-starter-parent</artifactId>
-    <version>6.1.3-SNAPSHOT</version>
+    <version>6.2.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>BroadleafCommerce Spring Boot Starter Parent</name>
     <description>Contains configuration for a Broadleaf Commerce Spring Boot starter project</description>
 
     <properties>
         <solr.version>7.7.2</solr.version>
-        <broadleaf.bom.version>6.1.3-SNAPSHOT</broadleaf.bom.version>
+        <broadleaf.bom.version>6.2.0-SNAPSHOT</broadleaf.bom.version>
         <thymeleaf.layout.version>2.3.0</thymeleaf.layout.version>
     </properties>
 
