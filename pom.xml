@@ -69,7 +69,7 @@
                                     <artifactItem>
                                         <groupId>org.springframework</groupId>
                                         <artifactId>spring-instrument</artifactId>
-                                        <version>${spring.version}</version>
+                                        <version>${spring-framework.version}</version>
                                         <outputDirectory>${project.build.directory}/agents</outputDirectory>
                                         <destFileName>spring-instrument.jar</destFileName>
                                     </artifactItem>
